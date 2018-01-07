@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!--<group android:checkableBehavior="single">-->
+        <item android:title="PROLOGUE">
+            <menu>
+                <item
+                    android:id="@+id/Prologue_ReleaseNotes55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Release Notes" />
+                <item
+                    android:id="@+id/Prologue_UpgradeGuide55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Upgrade Guide"/>
+                <item
+                    android:id="@+id/Prologue_ContributionGuide55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Contribution Guide"/>
+                <item
+                    android:id="@+id/Prologue_APIDocumentation55"
+                    android:icon="@mipmap/arrow"
+                    android:title="API Documentation"/>
+            </menu>
+        </item>
+
+        <item android:title="GETTING STARTED">
+            <menu>
+                <item
+                    android:id="@+id/GettingStarted_Installation55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Installation"/>
+                <item
+                    android:id="@+id/gettingstarted_configuration55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Configuration"/>
+                <item
+                    android:id="@+id/gettingstarted_directorystructure55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Directory Structure"/>
+                <item
+                    android:id="@+id/gettingstarted_homestead55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Homestead"/>
+                <item
+                    android:id="@+id/gettingstarted_valet55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Valet"/>
+                <item
+                    android:id="@+id/gettingstarted_deployment55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Deployment"/>
+            </menu>
+        </item>
+
+        <item android:title="ARCHITECTURE CONCEPTS">
+            <menu>
+                <item
+                    android:id="@+id/architectureconcepts_requestlifecycle55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Request Lifecycle"/>
+                <item
+                    android:id="@+id/architectureconcepts_servicecontainer55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Service Container"/>
+                <item
+                    android:id="@+id/architectureconcepts_serviceproviders55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Service Providers"/>
+                <item
+                    android:id="@+id/architectureconcepts_facades55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Facades"/>
+                <item
+                    android:id="@+id/architectureconcepts_contracts55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Contracts"/>
+            </menu>
+        </item>
+
+        <item android:title="THE BASICS">
+            <menu>
+                <item
+                    android:id="@+id/thebasics_routing55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Routing"/>
+                <item
+                    android:id="@+id/thebasics_middleware55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Middleware"/>
+                <item
+                    android:id="@+id/thebasics_csrfprotection55"
+                    android:icon="@mipmap/arrow"
+                    android:title="CSRF Protection"/>
+                <item
+                    android:id="@+id/thebasics_controllers55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Controllers"/>
+                <item
+                    android:id="@+id/thebasics_requests55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Requests"/>
+                <item
+                    android:id="@+id/thebasics_responses55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Responses"/>
+                <item
+                    android:id="@+id/thebasics_views55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Views"/>
+                <item
+                    android:id="@+id/thebasics_urlgeneration55"
+                    android:icon="@mipmap/arrow"
+                    android:title="URL Generation"/>
+                <item
+                    android:id="@+id/thebasics_session55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Session"/>
+                <item
+                    android:id="@+id/thebasics_validation55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Validation"/>
+                <item
+                    android:id="@+id/thebasics_errorsandlogging55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Errors and Logging"/>
+            </menu>
+        </item>
+
+        <item android:title="FRONTEND">
+            <menu>
+                <item
+                    android:id="@+id/frontend_bladetemplates55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Blade Templates"/>
+                <item
+                    android:id="@+id/frontend_localization55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Localization"/>
+                <item
+                    android:id="@+id/frontend_frontendscaffolding55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Frontend Scaffolding"/>
+                <item
+                    android:id="@+id/frontend_compilingassets55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Compiling Assets"/>
+            </menu>
+        </item>
+
+        <item android:title="SECURITY">
+            <menu>
+                <item
+                    android:id="@+id/security_authentication55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Authentication"/>
+                <item
+                    android:id="@+id/security_apiauthentication55"
+                    android:icon="@mipmap/arrow"
+                    android:title="API Authentication"/>
+                <item
+                    android:id="@+id/security_authorization55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Authorization"/>
+                <item
+                    android:id="@+id/security_encryption55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Encryption"/>
+                <item
+                    android:id="@+id/security_hashing55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Hashing"/>
+                <item
+                    android:id="@+id/security_passwordreset55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Password Reset"/>
+            </menu>
+        </item>
+
+        <item android:title="DIGGING DEEPER">
+            <menu>
+                <item
+                    android:id="@+id/diggingdeeper_artisanconsole55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Artisan Console"/>
+                <item
+                    android:id="@+id/diggingdeeper_broadcasting55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Broadcasting"/>
+                <item
+                    android:id="@+id/diggingdeeper_cache55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Cache"/>
+                <item
+                    android:id="@+id/diggingdeeper_collections55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Collections"/>
+                <item
+                    android:id="@+id/diggingdeeper_events55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Events"/>
+                <item
+                    android:id="@+id/diggingdeeper_filestorage55"
+                    android:icon="@mipmap/arrow"
+                    android:title="File Storage"/>
+                <item
+                    android:id="@+id/diggingdeeper_helpers55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Helpers"/>
+                <item
+                    android:id="@+id/diggingdeeper_mail55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Mail"/>
+                <item
+                    android:id="@+id/diggingdeeper_notifications55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Notifications"/>
+                <item
+                    android:id="@+id/diggingdeeper_packagedevelopment55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Package Development"/>
+                <item
+                    android:id="@+id/diggingdeeper_queues55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Queues"/>
+                <item
+                    android:id="@+id/diggingdeeper_taskscheduling55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Task Scheduling"/>
+            </menu>
+        </item>
+
+        <item android:title="DATABASE">
+            <menu>
+                <item
+                    android:id="@+id/database_gettingstarted55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Getting Started"/>
+                <item
+                    android:id="@+id/database_querybuilder55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Query Builder"/>
+                <item
+                    android:id="@+id/database_pagination55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Pagination"/>
+                <item
+                    android:id="@+id/database_migrations55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Migrations"/>
+                <item
+                    android:id="@+id/database_seeding55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Seeding"/>
+                <item
+                    android:id="@+id/database_redis55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Redis"/>
+            </menu>
+        </item>
+
+        <item android:title="Eloquent ORM">
+            <menu>
+                <item
+                    android:id="@+id/eloquentorm_gettingstarted55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Getting Started"/>
+                <item
+                    android:id="@+id/eloquentorm_relationships55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Relationships"/>
+                <item
+                    android:id="@+id/eloquentorm_collections55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Collections"/>
+                <item
+                    android:id="@+id/eloquentorm_mutators55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Mutators"/>
+                <item
+                    android:id="@+id/eloquentorm_apiresources55"
+                    android:icon="@mipmap/arrow"
+                    android:title="API Resources"/>
+                <item
+                    android:id="@+id/eloquentorm_serialization55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Serialization"/>
+            </menu>
+        </item>
+
+        <item android:title="TESTING">
+            <menu>
+                <item
+                    android:id="@+id/testing_gettingstarted55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Getting Started"/>
+                <item
+                    android:id="@+id/testing_httptests55"
+                    android:icon="@mipmap/arrow"
+                    android:title="HTTP Tests"/>
+                <item
+                    android:id="@+id/testing_browsertests55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Browser Tests"/>
+                <item
+                    android:id="@+id/testing_database55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Database"/>
+                <item
+                    android:id="@+id/testing_mocking55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Mocking"/>
+            </menu>
+        </item>
+
+        <item android:title="OFFICIAL PACKAGES">
+            <menu>
+                <item
+                    android:id="@+id/officialpackages_cashier55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Cashier"/>
+                <item
+                    android:id="@+id/officialpackages_envoy55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Envoy"/>
+                <item
+                    android:id="@+id/officialpackages_horizon55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Horizon"/>
+                <item
+                    android:id="@+id/officialpackages_passport55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Passport"/>
+                <item
+                    android:id="@+id/officialpackages_scout55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Scout"/>
+                <item
+                    android:id="@+id/officialpackages_socialite55"
+                    android:icon="@mipmap/arrow"
+                    android:title="Socialite"/>
+            </menu>
+        </item>
+    <!--</group>-->
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prologue">
+        <item>Release Notes</item>
+        <item>Upgrade Guide</item>
+        <item>Contribution Guide</item>
+        <item>API Documentation</item>
+    </string-array>
+
+    <string-array name="gettingstarted">
+        <item>Installation</item>
+        <item>Configuration</item>
+        <item>Directory Structure</item>
+        <item>Homestead</item>
+        <item>Valet</item>
+        <item>Deployment</item>
+    </string-array>
+
+    <string-array name="architectureconcepts">
+        <item>Request Lifecycle</item>
+        <item>Service Container</item>
+        <item>Service Providers</item>
+        <item>Facades</item>
+        <item>Contracts</item>
+    </string-array>
+
+    <string-array name="thebasics">
+        <item>Routing</item>
+        <item>Middleware</item>
+        <item>CSRF Protection</item>
+        <item>Controllers</item>
+        <item>Requests</item>
+        <item>Responses</item>
+        <item>Views</item>
+        <item>URL Generation</item>
+        <item>Session</item>
+        <item>Validation</item>
+        <item>Errors and Logging</item>
+    </string-array>
+
+    <string-array name="frontend">
+        <item>Blade Templates</item>
+        <item>Localization</item>
+        <item>frontend Scaffolding</item>
+        <item>Compiling Assets</item>
+    </string-array>
+
+    <string-array name="security">
+        <item>Authentication</item>
+        <item>API Authentication</item>
+        <item>Authorization</item>
+        <item>Encryption</item>
+        <item>Hashing</item>
+        <item>Password Reset</item>
+    </string-array>
+
+    <string-array name="diggingdeeper">
+        <item>Artisan Console</item>
+        <item>Broadcasting</item>
+        <item>Cache</item>
+        <item>Collections</item>
+        <item>Events</item>
+        <item>File Storage</item>
+        <item>Helpers</item>
+        <item>Mail</item>
+        <item>Notifications</item>
+        <item>Package Development</item>
+        <item>Queues</item>
+        <item>Task Scheduling</item>
+    </string-array>
+
+    <string-array name="database">
+        <item>Getting Started</item>
+        <item>Query Builder</item>
+        <item>Pagination</item>
+        <item>Migrations</item>
+        <item>Seeding</item>
+        <item>Redis</item>
+    </string-array>
+
+    <string-array name="eloquentorm">
+        <item>Getting Started</item>
+        <item>Relationships</item>
+        <item>Collections</item>
+        <item>Mutators</item>
+        <item>API Resources</item>
+        <item>Serialization</item>
+    </string-array>
+
+    <string-array name="testing">
+        <item>Getting Started</item>
+        <item>HTTP Tests</item>
+        <item>Browser Tests</item>
+        <item>Database</item>
+        <item>Mocking</item>
+    </string-array>
+
+    <string-array name="officialpackages">
+        <item>Cashier</item>
+        <item>Envoy</item>
+        <item>Horizon</item>
+        <item>Passport</item>
+        <item>Scout</item>
+        <item>Socialite</item>
+    </string-array>
+</resources>
